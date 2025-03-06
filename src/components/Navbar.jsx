@@ -64,9 +64,9 @@ const Navbar = () => {
             <li key={index}>
               <a
                 href={`#${item.toLowerCase().replace(/\s/g, "")}`}
-                className={`relative xl:text-[20px] xl:font-medium lg:text-[18px] lg:font-regular md:text-[20px] md:font-medium sm:text-[20px] sm:font-medium transition-colors group ${
+                className={`relative text-[20px] font-medium lg:text-[18px] transition-colors group ${
                   activeSection === index
-                    ? "bg-green text-black px-4 py-2 rounded-[14px] "
+                    ? "bg-green text-black px-4 py-2 rounded-[14px]"
                     : ""
                 }`}
                 onClick={() => handleClick(index)}

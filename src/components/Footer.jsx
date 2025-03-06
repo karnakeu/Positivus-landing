@@ -150,7 +150,6 @@ const Footer = () => {
           </p>
         </motion.div>
       </motion.div>
-      <div className="bg-slate-300">Hello</div>
     </section>
   );
 };
